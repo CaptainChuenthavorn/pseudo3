@@ -8,7 +8,7 @@ int main() {
 	{
 		for (j = 1;j <= 2 * n - 1;j++)
 		{
-			if (j <= n - abs(n - i) || j >= n + abs(n - i))
+			if (j <= n - abs(n - i) || j >=	n + abs(n - i))
 			{
 			printf("* ");
 			}
